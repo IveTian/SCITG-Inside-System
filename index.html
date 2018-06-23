@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>SCITG 内部系统 V1.0.0_Beta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+    <div class="navbar navbar-static-top navbar-inverse">
+        <div class="navbar-inner">
+            <a class="brand" href="#">SCITG 内部系统 V1.0.0_Beta</a>
+            <ul class="nav">
+                <li class="active"><a href="#">首页</a></li>
+                <li><a href="updatelog.html" target="_black">更新记录</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <!--警告-->
+    <div class="alert">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>提示!</strong> 这个站点是成都高新三岔中学信息技术社内部系统，如果您是误入了这里，那么您可以返回之前的页面或者去<strong><a href="https://scitg.github.io">访问我们的主站</a></strong>！
+    </div>
+    <!--版本信息块+通知+登陆模组-->
+    <div style="margin-top: 50px;">
+        <!--信息块-->
+        <div class="hero-unit span4">
+            <h4>系统信息
+                <br />系统版本：V1.0.0 <span class="label label-info">Beta</span>
+                <br />最后更新时间：2018年6月23日</h4>
+            <h5>更新内容：<span class="badge badge-success">5</span> <span class="badge badge-warning">1</span>
+                <br /><span class="label label-success">新增</span> 1.首版系统；
+                <br /><span class="label label-success">新增</span> 2.采用了Bootstrap前端框架；
+                <br /><span class="label label-success">新增</span> 3.1.增加了登陆系统；
+                <br /><span class="label label-success">新增</span> 3.2.增加了签到系统；
+                <br /><span class="label label-success">新增</span> 4.更多功能请等待后续更新！
+                <br /><span class="label label-warning">问题</span> 5.稳定性后续持续优化！
+            </h5>
+            <h4>
+                <a class="btn btn-primary btn-large" href="updatelog.html" target="_black">
+                  查看更新log
+                </a>
+            </h4>
+        </div>
+        <!--通知块-->
+        <div class="well span4 offset1">
+            <h3>社团通知</h3>
+        </div>
+        <!--登陆模组-->
+        <div class="WELL span3 offset1">
+
+            <form class="form-signin">
+                <h2 class="form-signin-heading">登入</h2>
+                <input type="text" class="input-block-level" placeholder="证件编号">
+                <input type="password" class="input-block-level" placeholder="密码">
+                <label class="checkbox">
+                    <input type="checkbox" value="remember-me"> 记住我
+                  </label>
+                <button class="btn btn-large btn-primary" type="submit">登入</button>
+            </form>
+
+        </div>
+    </div>
+    <!--引入文件-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
